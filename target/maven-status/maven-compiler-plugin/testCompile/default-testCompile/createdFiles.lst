@@ -1,0 +1,3 @@
+StepDefs\BaseClass.class
+StepDefs\LoginSteps.class
+StepDefs\TestRunner.class
