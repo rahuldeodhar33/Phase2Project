@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 193206500,
+              "duration": 161730600,
               "status": "passed"
             },
             "line": 4,
@@ -24,11 +24,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-04-10T13:45:05.473Z",
+        "start_timestamp": "2022-04-11T15:21:46.584Z",
         "before": [
           {
             "result": {
-              "duration": 5189159600,
+              "duration": 6134271000,
               "status": "passed"
             },
             "match": {
@@ -43,7 +43,7 @@
         "after": [
           {
             "result": {
-              "duration": 151165400,
+              "duration": 473317700,
               "status": "passed"
             },
             "match": {
@@ -56,7 +56,7 @@
         "steps": [
           {
             "result": {
-              "duration": 209775500,
+              "duration": 205859400,
               "status": "passed"
             },
             "line": 8,
@@ -74,7 +74,7 @@
           },
           {
             "result": {
-              "duration": 204733600,
+              "duration": 143967700,
               "status": "passed"
             },
             "line": 9,
@@ -92,7 +92,7 @@
           },
           {
             "result": {
-              "duration": 229176400,
+              "duration": 280451400,
               "status": "passed"
             },
             "line": 10,
@@ -104,7 +104,7 @@
           },
           {
             "result": {
-              "duration": 1718700,
+              "duration": 919100,
               "status": "passed"
             },
             "line": 11,
@@ -130,7 +130,7 @@
         "steps": [
           {
             "result": {
-              "duration": 185941000,
+              "duration": 161960700,
               "status": "passed"
             },
             "line": 4,
@@ -143,11 +143,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-04-10T13:45:11.707Z",
+        "start_timestamp": "2022-04-11T15:21:54.137Z",
         "before": [
           {
             "result": {
-              "duration": 2454098900,
+              "duration": 4365725400,
               "status": "passed"
             },
             "match": {
@@ -162,7 +162,7 @@
         "after": [
           {
             "result": {
-              "duration": 110117700,
+              "duration": 312303200,
               "status": "passed"
             },
             "match": {
@@ -175,7 +175,7 @@
         "steps": [
           {
             "result": {
-              "duration": 194279000,
+              "duration": 196516700,
               "status": "passed"
             },
             "line": 19,
@@ -193,7 +193,7 @@
           },
           {
             "result": {
-              "duration": 173332300,
+              "duration": 130357500,
               "status": "passed"
             },
             "line": 20,
@@ -211,7 +211,7 @@
           },
           {
             "result": {
-              "duration": 124245100,
+              "duration": 98670100,
               "status": "passed"
             },
             "line": 21,
@@ -223,7 +223,7 @@
           },
           {
             "result": {
-              "duration": 46724000,
+              "duration": 64694900,
               "status": "passed"
             },
             "line": 22,
@@ -252,6 +252,168 @@
     "id": "login-test-for-page-saucedemo.com",
     "keyword": "Feature",
     "uri": "file:src/test/java/features/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Open the application saucedemo.com",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 254738300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User have opens the application in browser",
+            "match": {
+              "location": "ProductSteps.user_have_opens_the_application_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 152041900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters the username \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 25
+                }
+              ],
+              "location": "ProductSteps.user_enters_the_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 168409100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters the password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 25
+                }
+              ],
+              "location": "ProductSteps.user_enters_the_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 254002800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on the login button",
+            "match": {
+              "location": "ProductSteps.user_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-11T15:21:59.484Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4727011600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.setup()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Validate the successful login",
+        "description": "",
+        "id": "get-product-price-list-from-saucedemo.com;validate-the-successful-login",
+        "after": [
+          {
+            "result": {
+              "duration": 369761200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2636200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on product page",
+            "match": {
+              "location": "ProductSteps.user_is_on_product_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 206375900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User can see below products with price",
+            "match": {
+              "location": "ProductSteps.user_can_see_below_products_with_price(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Product",
+                  "Price"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Backpack",
+                  "$29.99"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bolt T-Shirt",
+                  "$15.99"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Get Product Price List from saucedemo.com",
+    "description": "",
+    "id": "get-product-price-list-from-saucedemo.com",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Products.feature",
     "tags": []
   }
 ]

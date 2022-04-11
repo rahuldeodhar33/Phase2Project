@@ -238,4 +238,111 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
+formatter.uri("file:src/test/java/features/Products.feature");
+formatter.feature({
+  "name": "Get Product Price List from saucedemo.com",
+  "description": "",
+  "keyword": "Feature"
+});
+formatter.background({
+  "name": "Open the application saucedemo.com",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User have opens the application in browser",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "ProductSteps.user_have_opens_the_application_in_browser()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User enters the username \"standard_user\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "ProductSteps.user_enters_the_username(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User enters the password \"secret_sauce\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "ProductSteps.user_enters_the_password(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User clicks on the login button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "ProductSteps.user_clicks_on_the_login_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Validate the successful login",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@Sanity"
+    }
+  ]
+});
+formatter.step({
+  "name": "User is on product page",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "ProductSteps.user_is_on_product_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User can see below products with price",
+  "rows": [
+    {
+      "cells": [
+        "Product",
+        "Price"
+      ]
+    },
+    {
+      "cells": [
+        "Sauce Labs Backpack",
+        "$29.99"
+      ]
+    },
+    {
+      "cells": [
+        "Sauce Labs Bolt T-Shirt",
+        "$15.99"
+      ]
+    }
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "ProductSteps.user_can_see_below_products_with_price(DataTable)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
 });
